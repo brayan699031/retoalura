@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    color: #0A3871;
+    border: 5%;
+
+}
+
+.Encriptador__contenido{  
+    display: flex;
+    gap: 2rem;
+    font-family: 'Inter', sans-serif;
+    border: 15%;
+}
+
+.resultados__titulo{
+    color: #343A40;
+}
+
+.resultados__texto{
+    color: #495057;
+}
+
+.resultados__copiar{
+    width: 80%;
+}
+
+
+.Encriptador__contenido__ingresar{
+
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 2rem;
+    
+}
+
+button{
+   
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+    text-decoration: none;
+
+}
+
+.input{
+    resize: none;
+    border: none;
+    background-color: #F3F5FC ;
+    width: 90%;
+    height: 25rem;
+    text-decoration: none;
+    outline: none;
+}
+
+.resultados{
+    padding: 5%;
+    width: 30%;   
+    resize: none;
+    border: 15%;
+    background-color: #FFFFFF;
+    border-radius: 2rem;
+    
+}
+
+.resultados__mostrar{
+    resize: none;
+    border: none;
+    outline: none;
+}
+.Encriptador__contenido__botones{
+    text-decoration: none;  
+    gap: 1rem;
+
+}
+
+.Encriptador__contenido__ingresar{
+    padding: 5%;
+    width: 70%;
+    
+}
+
+.resultados__vacio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    
+}
+    
+#encripta{
+    background-color: #0A3871;
+    color:#FFFFFF
+}
+
+#desencripta{
+    background-color: #D8DFE8;
+}
+
+body{
+    background-color: #F3F5FC;
+    box-sizing: border-box;
+}
